@@ -67,3 +67,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  min-height: 50vh;
+  min-width: 50vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.countries,
+.cities {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
